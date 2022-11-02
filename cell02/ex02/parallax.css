@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+}
+
+div {
+	text-align: center;
+	color: white;
+}
+
+.parallax {
+	background-color: black;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.text {
+	position: relative;
+	top: 50%;
+}
+
+.block {
+	background-color: black;
+	height: 1000px;
+}
+
+#img1 {
+	background-image: url("https://img.freepik.com/photos-gratuite/route-etroite-dans-champ-herbeux-vert-entoure-arbres-verts-soleil-eclatant-arriere-plan_181624-9968.jpg?w=2000");
+}
+
+#img2 {
+	background-image: url("https://static.lexpress.fr/medias_11820/w_1000,h_563,c_fill,g_north/v1525001585/le-catcheur-john-cena-lors-du-premier-spectacle-de-catch-en-arabie-saoudite-a-jeddah-le-27-avril-2018_6052350.jpg");
+}
